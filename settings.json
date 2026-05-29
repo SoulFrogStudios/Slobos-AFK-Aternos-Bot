@@ -9,12 +9,12 @@
     "ip": "FreakyPoodle.aternos.me",
     "port": 26208,
     "version": "1.21.1",
-    "try-creative": false
+    "try-creative": true
   },
   "position": {
     "enabled": true,
     "x": 0,
-    "y": 100,
+    "y": 300,
     "z": 0
   },
   "utils": {
@@ -23,8 +23,8 @@
       "password": "chalol78"
     },
     "anti-afk": {
-      "enabled": true,
-      "sneak": true
+      "enabled": false,
+      "sneak": false
     },
     "chat-messages": {
       "enabled": false,
@@ -41,7 +41,7 @@
     "max-reconnect-delay": 120000
   },
   "movement": {
-    "enabled": true,
+    "enabled": false,
     "circle-walk": {
       "enabled": true,
       "radius": 4,
@@ -52,7 +52,7 @@
       "interval": 5000
     },
     "random-jump": {
-      "enabled": true,
+      "enabled": false,
       "interval": 10000
     }
   },
@@ -60,7 +60,7 @@
     "avoidMobs": true,
     "combat": true,
     "beds": false,
-    "chat": true,
+    "chat": false,
     "console-commands": true
   },
   "combat": {
@@ -69,7 +69,7 @@
   },
   "beds": {
     "pick-up-day": false,
-    "place-night": true
+    "place-night": false
   },
   "discord": {
     "enabled": false,
